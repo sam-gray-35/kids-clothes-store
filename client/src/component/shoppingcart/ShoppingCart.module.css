@@ -1,0 +1,77 @@
+.Container {
+    /* background-color: rebeccapurple; */
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -60px;
+}
+
+.Image {
+    width: 160px;
+    height: auto;
+}
+
+.List {
+    /* background-color: yellow; */
+    padding-inline-start: 4px;
+    list-style: none;
+}
+
+.Button {
+    background-color: transparent;
+    border-style: none;
+    position: absolute;
+    display: block;
+    margin-top: -20%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.ShoppingCartButton {
+    height: 44px;
+    width: 160px;
+    margin-top: 12px;
+    background-color: #333333;
+    color: #eeeeee;
+    font-weight: 300;
+    border: none;
+}
+
+.CheckoutButton {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 90vw;
+    height: 44px;
+    border: none;
+    background-color: #fc5359;
+    color: #1a1918;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .Container {
+        grid-template-columns: 33% 33% 33%;
+    }
+    .Button {
+        margin-top: -10%;
+    }
+    .Image {
+        width: 28vw;
+        height: auto;
+    }
+    .List {
+        /* background-color: green; */
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+    .Product {
+        padding-inline-start: 50px;
+    }
+    .ShoppingCartButton {
+        width: 28vw;
+    }
+}

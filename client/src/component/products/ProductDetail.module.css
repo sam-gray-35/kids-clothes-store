@@ -1,0 +1,45 @@
+.Container {
+    /* background-color: red; */
+    margin-top: 80px;
+}
+
+.List {
+    /* background-color: yellow; */
+    list-style: none;
+    margin-top: -60px;
+}
+
+.Image {
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.Button {
+    height: 44px;
+    width: 160px;
+    margin-top: 12px;
+    background-color: #333333;
+    color: #eeeeee;
+    font-weight: 300;
+    border: none;
+}
+
+.FavButton {
+    background-color: transparent;
+    border-style: none;
+    position: absolute;
+    display: block;
+    margin-top: -28%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .FavButton {
+        margin-top: -10%;
+    }
+}
